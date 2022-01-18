@@ -327,3 +327,4 @@
 2022-03-26T00:07:36: refactor DuckDB loader schema and table initialization
 2022-02-01T21:08:30: fix minor bug in API extraction pipeline
 2022-08-08T16:01:12: optimize DuckDB query performance for customer churn mart
+2022-01-18T17:28:34: fix typo in dbt mart revenue calculation model
