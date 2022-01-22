@@ -381,3 +381,4 @@
 2022-08-02T08:52:40: fix minor bug in API extraction pipeline
 2022-01-02T22:12:25: refactor helper utilities and S3 storage adapter wrapper
 2022-01-13T05:59:41: update dbt staging models and transformation logic
+2022-01-23T02:20:00: refactor helper utilities and S3 storage adapter wrapper
