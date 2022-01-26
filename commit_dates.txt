@@ -354,3 +354,4 @@
 2022-11-04T13:25:01: fix minor bug in API extraction pipeline
 2022-08-27T07:43:38: feature: enhance raw data ingestion and JSON validation
 2022-02-28T17:14:52: implement customer lifetime value semantic metric helper
+2022-01-26T12:47:50: fix typo in dbt mart revenue calculation model
