@@ -376,3 +376,4 @@
 2022-09-04T17:56:51: chore: update dependencies and requirements.txt
 2022-09-22T12:26:22: fix minor bug in API extraction pipeline
 2022-08-11T05:31:56: minor tweaks in analytics report generation script
+2022-02-28T03:37:36: refactor Redshift warehouse loading schema and queries
