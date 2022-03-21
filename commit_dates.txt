@@ -328,3 +328,4 @@
 2022-02-01T21:08:30: fix minor bug in API extraction pipeline
 2022-08-08T16:01:12: optimize DuckDB query performance for customer churn mart
 2022-01-18T17:28:34: fix typo in dbt mart revenue calculation model
+2022-03-21T12:39:50: update test suites for FastAPI mock endpoints
