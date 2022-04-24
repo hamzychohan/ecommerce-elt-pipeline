@@ -426,3 +426,4 @@
 2022-01-24T23:18:38: update dbt staging models and transformation logic
 2022-02-11T10:49:14: chore: update dependencies and requirements.txt
 2022-01-02T13:20:51: optimize DuckDB query performance for customer churn mart
+2022-04-25T01:28:08: implement customer lifetime value semantic metric helper
