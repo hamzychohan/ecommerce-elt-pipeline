@@ -514,3 +514,4 @@
 2022-10-24T02:14:44: refactor DuckDB loader schema and table initialization
 2022-07-27T12:04:14: refactor helper utilities and S3 storage adapter wrapper
 2022-09-05T03:24:48: refactor helper utilities and S3 storage adapter wrapper
+2022-04-26T01:20:10: integrate local file fallback for raw data ingestion
