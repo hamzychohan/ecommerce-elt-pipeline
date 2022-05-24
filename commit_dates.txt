@@ -522,3 +522,4 @@
 2022-05-01T15:06:34: optimize DuckDB query performance for customer churn mart
 2022-04-05T05:41:20: update test suites for FastAPI mock endpoints
 2022-04-29T21:16:16: chore: update dependencies and requirements.txt
+2022-05-25T00:19:43: update Dockerfile and docker-compose service definitions
