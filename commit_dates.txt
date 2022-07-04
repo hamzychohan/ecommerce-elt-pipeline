@@ -502,3 +502,4 @@
 2022-05-11T08:10:24: code cleanup and formatting across pipeline modules
 2022-09-07T03:07:42: refactor Redshift warehouse loading schema and queries
 2022-06-13T19:23:25: chore: update dependencies and requirements.txt
+2022-07-04T09:56:13: refactor DuckDB loader schema and table initialization
