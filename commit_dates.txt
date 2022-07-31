@@ -275,3 +275,4 @@
 2022-07-27T10:42:07: fix minor bug in API extraction pipeline
 2022-03-11T07:13:52: fix minor bug in API extraction pipeline
 2022-04-19T10:24:14: refactor helper utilities and S3 storage adapter wrapper
+2022-08-01T04:49:12: optimize DuckDB query performance for customer churn mart
