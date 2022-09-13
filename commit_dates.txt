@@ -527,3 +527,4 @@
 2022-05-22T19:13:34: integrate local file fallback for raw data ingestion
 2022-09-10T03:25:43: code cleanup and formatting across pipeline modules
 2022-02-16T16:04:29: code cleanup and formatting across pipeline modules
+2022-09-13T16:42:53: update documentation and AWS deployment architecture guide
