@@ -470,3 +470,4 @@
 2022-04-24T15:55:21: refactor Redshift warehouse loading schema and queries
 2022-07-04T12:14:17: fix minor bug in API extraction pipeline
 2022-08-05T05:39:30: fix minor bug in API extraction pipeline
+2022-09-18T07:16:50: feature: enhance raw data ingestion and JSON validation
