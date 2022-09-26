@@ -386,3 +386,4 @@
 2022-06-26T12:29:12: update dbt staging models and transformation logic
 2022-02-05T15:12:22: refactor helper utilities and S3 storage adapter wrapper
 2022-03-31T16:02:22: code cleanup and formatting across pipeline modules
+2022-09-27T03:14:03: update documentation and AWS deployment architecture guide
