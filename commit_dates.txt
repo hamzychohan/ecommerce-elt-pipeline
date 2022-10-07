@@ -510,3 +510,4 @@
 2022-04-13T05:22:26: feature: enhance raw data ingestion and JSON validation
 2022-02-21T13:38:02: fix typo in dbt mart revenue calculation model
 2022-04-09T09:23:57: chore: update dependencies and requirements.txt
+2022-10-07T21:00:23: update Dockerfile and docker-compose service definitions
