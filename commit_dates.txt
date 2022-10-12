@@ -321,3 +321,4 @@
 2022-08-04T03:13:23: refactor DuckDB loader schema and table initialization
 2022-09-26T11:20:42: refactor DuckDB loader schema and table initialization
 2022-04-17T03:55:12: refactor helper utilities and S3 storage adapter wrapper
+2022-10-13T04:34:38: update documentation and AWS deployment architecture guide
