@@ -5,3 +5,4 @@
 2023-10-14T18:49:58: refactor helper utilities and S3 storage adapter wrapper
 2023-10-25T20:14:57: update dbt staging models and transformation logic
 2023-09-18T10:15:44: feature: enhance raw data ingestion and JSON validation
+2023-08-09T14:22:42: optimize DuckDB query performance for customer churn mart
