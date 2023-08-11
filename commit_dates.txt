@@ -179,3 +179,4 @@
 2023-08-31T07:35:19: chore: update dependencies and requirements.txt
 2023-10-29T07:21:22: integrate local file fallback for raw data ingestion
 2023-09-08T22:58:20: refactor Redshift warehouse loading schema and queries
+2023-08-11T09:04:33: update documentation and AWS deployment architecture guide
