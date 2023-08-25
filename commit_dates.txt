@@ -257,3 +257,4 @@
 2023-10-02T17:47:59: feature: enhance raw data ingestion and JSON validation
 2023-10-31T23:37:55: implement customer lifetime value semantic metric helper
 2023-08-19T23:26:13: chore: update dependencies and requirements.txt
+2023-08-25T14:50:25: fix typo in dbt mart revenue calculation model
