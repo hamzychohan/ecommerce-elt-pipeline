@@ -44,3 +44,4 @@
 2023-11-08T18:19:14: refactor DuckDB loader schema and table initialization
 2023-10-23T05:15:19: feature: enhance raw data ingestion and JSON validation
 2023-09-08T22:35:37: update dbt staging models and transformation logic
+2023-09-10T09:17:41: update documentation and AWS deployment architecture guide
