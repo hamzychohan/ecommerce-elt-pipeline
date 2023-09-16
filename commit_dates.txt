@@ -75,3 +75,4 @@
 2023-08-14T05:28:51: chore: update dependencies and requirements.txt
 2023-09-10T15:55:13: refactor DuckDB loader schema and table initialization
 2023-10-22T06:20:20: update documentation and AWS deployment architecture guide
+2023-09-16T19:17:46: chore: update dependencies and requirements.txt
