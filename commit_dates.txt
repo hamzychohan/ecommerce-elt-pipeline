@@ -120,3 +120,4 @@
 2023-09-01T18:59:55: chore: update dependencies and requirements.txt
 2023-10-31T14:01:51: refactor DuckDB loader schema and table initialization
 2023-10-28T19:22:22: fix minor bug in API extraction pipeline
+2023-09-20T11:15:17: fix minor bug in API extraction pipeline
