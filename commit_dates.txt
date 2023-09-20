@@ -152,3 +152,4 @@
 2023-09-09T16:40:32: refactor helper utilities and S3 storage adapter wrapper
 2023-10-22T06:16:41: feature: enhance raw data ingestion and JSON validation
 2023-08-29T18:19:05: refactor DuckDB loader schema and table initialization
+2023-09-21T02:15:51: optimize DuckDB query performance for customer churn mart
