@@ -63,3 +63,4 @@
 2023-10-06T10:03:14: update documentation and AWS deployment architecture guide
 2023-08-31T22:34:34: update documentation and AWS deployment architecture guide
 2023-08-11T19:59:41: integrate local file fallback for raw data ingestion
+2023-09-26T20:23:22: refactor DuckDB loader schema and table initialization
