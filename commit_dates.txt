@@ -165,3 +165,4 @@
 2023-09-06T00:53:21: chore: update dependencies and requirements.txt
 2023-09-01T21:52:49: optimize DuckDB query performance for customer churn mart
 2023-08-04T13:02:39: feature: enhance raw data ingestion and JSON validation
+2023-10-02T17:08:52: integrate local file fallback for raw data ingestion
