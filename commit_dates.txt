@@ -42,3 +42,4 @@
 2023-10-25T14:46:55: fix minor bug in API extraction pipeline
 2023-11-08T19:13:18: implement customer lifetime value semantic metric helper
 2023-11-08T18:19:14: refactor DuckDB loader schema and table initialization
+2023-10-23T05:15:19: feature: enhance raw data ingestion and JSON validation
