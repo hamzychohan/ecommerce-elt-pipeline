@@ -250,3 +250,4 @@
 2023-08-18T13:11:06: fix minor bug in API extraction pipeline
 2023-11-02T14:26:28: update project configuration and environment settings
 2023-09-19T14:11:44: chore: update dependencies and requirements.txt
+2023-10-25T18:07:08: fix typo in dbt mart revenue calculation model
