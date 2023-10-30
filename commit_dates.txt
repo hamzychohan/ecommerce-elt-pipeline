@@ -84,3 +84,4 @@
 2023-10-23T04:36:22: refactor helper utilities and S3 storage adapter wrapper
 2023-09-01T07:14:29: minor tweaks in analytics report generation script
 2023-09-07T11:19:34: feature: enhance raw data ingestion and JSON validation
+2023-10-30T19:47:45: optimize DuckDB query performance for customer churn mart
