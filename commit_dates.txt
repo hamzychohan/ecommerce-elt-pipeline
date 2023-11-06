@@ -94,3 +94,4 @@
 2023-10-15T09:24:59: fix typo in dbt mart revenue calculation model
 2023-10-12T18:05:05: code cleanup and formatting across pipeline modules
 2023-10-02T02:08:25: minor tweaks in analytics report generation script
+2023-11-06T05:02:45: update dbt staging models and transformation logic
