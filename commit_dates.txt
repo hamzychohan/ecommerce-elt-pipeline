@@ -90,3 +90,4 @@
 2023-10-01T00:15:26: refactor helper utilities and S3 storage adapter wrapper
 2023-08-23T14:13:05: code cleanup and formatting across pipeline modules
 2023-08-28T03:09:09: update project configuration and environment settings
+2023-11-06T10:49:14: update dbt staging models and transformation logic
