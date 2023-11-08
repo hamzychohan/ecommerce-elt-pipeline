@@ -199,3 +199,4 @@
 2023-10-10T20:59:12: update dbt staging models and transformation logic
 2023-10-18T10:23:45: minor tweaks in analytics report generation script
 2023-11-07T22:39:45: fix typo in dbt mart revenue calculation model
+2023-11-08T18:57:28: update documentation and AWS deployment architecture guide
