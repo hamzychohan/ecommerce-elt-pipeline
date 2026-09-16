@@ -5,8 +5,8 @@ import subprocess
 from datetime import datetime, timedelta
 
 # Variables for configuration
-START_DATE = "2023-08-01"  # Start date (format: YYYY-MM-DD)
-END_DATE = "2023-11-08"    # End date (format: YYYY-MM-DD)
+START_DATE = "2022-01-01"  # Start date (format: YYYY-MM-DD)
+END_DATE = "2022-11-08"    # End date (format: YYYY-MM-DD)
 MAX_COMMITS_PER_DAY = 6    # Max commits per day
 MIN_COMMITS_PER_DAY = 0    # Min commits per day
 FILE_PATH = "./data.json"  # JSON file to store commit data
