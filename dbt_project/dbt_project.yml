@@ -1,0 +1,22 @@
+name: ecommerce_dw
+version: 1.0.0
+config-version: 2
+
+profile: ecommerce_dw
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+vars:
+  churn_inactive_days: 90
+  revenue_statuses: ["completed", "shipped"]
+
+models:
+  ecommerce_dw:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

@@ -1,0 +1,16 @@
+ecommerce_dw:
+  target: duckdb
+  outputs:
+    duckdb:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH', 'warehouse/ecommerce.duckdb') }}"
+      schema: main
+    redshift:
+      type: redshift
+      host: "{{ env_var('REDSHIFT_HOST', 'localhost') }}"
+      port: "{{ env_var('REDSHIFT_PORT', '5439') | as_number }}"
+      user: "{{ env_var('REDSHIFT_USER', 'admin') }}"
+      password: "{{ env_var('REDSHIFT_PASSWORD', '') }}"
+      dbname: "{{ env_var('REDSHIFT_DB', 'dev') }}"
+      schema: public
+      threads: 4

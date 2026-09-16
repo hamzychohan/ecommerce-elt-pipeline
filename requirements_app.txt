@@ -1,0 +1,7 @@
+python-dotenv
+requests
+fastapi
+uvicorn
+boto3
+duckdb
+pyarrow

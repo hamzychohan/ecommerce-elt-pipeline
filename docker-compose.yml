@@ -1,0 +1,74 @@
+version: '3.9'
+
+x-app-env: &app-env
+  DUCKDB_PATH: /app/warehouse/ecommerce.duckdb
+  LOCAL_DATA_DIR: /app/local_data
+  API_BASE_URL: http://api:8000/api/v1
+  USE_LOCAL_FILES: "true"
+  AWS_REGION: ${AWS_REGION:-us-east-1}
+  AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION:-us-east-1}
+  S3_BUCKET: ${S3_BUCKET:-elt-bucket-s3}
+  S3_PREFIX: ${S3_PREFIX:-raw}
+
+services:
+  api:
+    build: .
+    container_name: project2_api
+    ports:
+      - "8000:8000"
+    environment:
+      <<: *app-env
+    volumes:
+      - .:/app:cached
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  pipeline:
+    build: .
+    container_name: project2_pipeline
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      <<: *app-env
+    volumes:
+      - .:/app:cached
+    entrypoint: ["/app/docker-entrypoint.sh"]
+    command: ["run_pipeline", "duckdb"]
+    profiles: ["pipeline"]
+
+  reports:
+    build:
+      context: .
+      dockerfile: Dockerfile.reports
+    container_name: project2_reports
+    environment:
+      DUCKDB_PATH: /app/warehouse/ecommerce.duckdb
+    volumes:
+      - ./warehouse:/app/warehouse:ro
+    command: ["generate_report"]
+    profiles: ["reports"]
+
+  full-stack:
+    build: .
+    container_name: project2_full_stack
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      <<: *app-env
+    volumes:
+      - .:/app:cached
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        set -e
+        echo "Waiting for API..."
+        python -m orchestration.run_pipeline duckdb
+        python -m reports.generate_report
+    profiles: ["demo"]

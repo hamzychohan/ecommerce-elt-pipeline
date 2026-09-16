@@ -1,0 +1,5 @@
+# Application dependencies (Python 3.14 compatible)
+-r requirements_app.txt
+
+# dbt dependencies are managed separately to avoid pydantic/dbt conflicts.
+# Install dbt in a separate environment with: pip install -r requirements_dbt.txt

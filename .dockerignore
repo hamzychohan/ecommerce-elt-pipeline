@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+venv_dbt/
+.local/
+.env
+*.db
+__MACOSX/
+.DS_Store

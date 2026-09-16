@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data landed in S3 / warehouse landing tables
+    tables:
+      - name: orders
+      - name: products
+      - name: customers
